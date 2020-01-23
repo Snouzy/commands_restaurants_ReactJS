@@ -5,7 +5,6 @@ import Order from './Order';
 import sampleFishes from '../sample-fishes';
 import Fish from './Fish';
 import base from '../base';
-import fishes from '../sample-fishes';
 class App extends Component {
    state = {
       fishes: {},

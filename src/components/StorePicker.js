@@ -18,10 +18,10 @@ class StorePicker extends Component {
                type="text"
                ref={this.myInput}
                required
-               placeholder="Store Name"
+               placeholder="Nom du magasin"
                defaultValue={getFunName()}
             />
-            <button type="submit">Visit Store ➡</button>
+            <button type="submit">Visiter le magasin ➡</button>
          </form>
       );
    }
